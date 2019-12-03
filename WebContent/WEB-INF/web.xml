@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+<servlet>
+	<servlet-name>firstServlet</servlet-name>
+	<servlet-class>Model2.firstServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>firstServlet</servlet-name>
+	<url-pattern>/firstServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>addTitle</servlet-name>
+	<servlet-class>Model2.addTitle</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>addTitle</servlet-name>
+	<url-pattern>/addTitle</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>changecheckcode</servlet-name>
+	<servlet-class>Model2.changecheckcode</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>changecheckcode</servlet-name>
+	<url-pattern>/changecheckcode</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>checkcode</servlet-name>
+	<servlet-class>Model2.checkcode</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>checkcode</servlet-name>
+	<url-pattern>/checkcode</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>register</servlet-name>
+	<servlet-class>Model2.register</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>register</servlet-name>
+	<url-pattern>/register</url-pattern>
+</servlet-mapping>
+</web-app>
